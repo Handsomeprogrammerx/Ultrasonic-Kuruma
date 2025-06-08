@@ -1,5 +1,5 @@
 # Ultrasonic Kuruma
-This robot car is equipped with ultrasonic sensor which allow it to avoid the obstacles, and is controlled by esp8266.
+This robot car is equipped with ultrasonic sensor which allow it to avoid the obstacles, and is controlled by esp8266. The robot will go forward until get to close to the obstacles and will decide whether to go left, right or move backward.
 
 # Skillls Highlight
 
