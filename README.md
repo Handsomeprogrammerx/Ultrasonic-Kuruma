@@ -13,4 +13,4 @@ This robot car is equipped with ultrasonic sensor which allow it to avoid the ob
 
 # Status
 
-Currently paused,  I used it at a study case for my future project, for example a self-driving car or self-navigating robot.
+Currently paused,  I haven't done any calculation on the robot's dynamics: linear velocity, rotation velocity, appropriate weight, and stopping time. I used this as a study case for my future projects, for example a self-driving car or self-navigating robot.
