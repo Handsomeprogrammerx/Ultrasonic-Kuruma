@@ -2,7 +2,7 @@
 #include <Servo.h>
 
 Servo servo; //pin D4
-#define trig D6 //30deg, 2cm-400cm, 10microsec +-0.3cm
+#define trig D6 
 #define echo D5
 #define ENA D1
 #define ENB D7
@@ -37,8 +37,6 @@ void setup()
 void loop() 
 {
   //Measure the distance front if pass go forward
-  //stop();
-  //delay(1000);
   int front = measure();
   if (front > 6) //I must account doppler shift
   {
@@ -54,9 +52,7 @@ void loop()
     }
     stop();
     delay(1000);
-  }
-  //else //If cut this out it'll be faster
-  
+  }  
     servo.write(180);
     delay(500);
     int left = measure();
@@ -123,12 +119,6 @@ void loop()
       turnright();
       delay(170);
     }      
-
-  
-   
-  //else if measure left and right if left is safer go left vice versa
-  //else go backward for amount
-  //measure the distance in front again 
 }
 
 int measure()
