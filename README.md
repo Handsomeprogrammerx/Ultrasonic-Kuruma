@@ -5,7 +5,7 @@ This robot car is equipped with ultrasonic sensor which allow it to avoid the ob
 
 -Tinkering: Soldering, wiring, and components selecting.
 
--Programming: Write own custom program in C++
+-Programming: Wrote own custom program in C++
 
 -Understanding: Learn about each components: how do they works?, how to use them?, how much they could do.
 
